@@ -6,7 +6,7 @@ public class MyFirstJavaClass {
         int num = scanner.nextInt();
 
         if (num == 100){
-            for (int i = num; i > 0; i--) {
+            for (int i = num; i > 200; i--) {
                 if (num % i == 0) {
                     System.out.println(i);
                 }
