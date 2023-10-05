@@ -12,5 +12,9 @@ public class MyFirstJavaClass {
                 }
             }
         }
+
+        if (true){
+            System.out.println("Hello git");
+        }
     }
 }
