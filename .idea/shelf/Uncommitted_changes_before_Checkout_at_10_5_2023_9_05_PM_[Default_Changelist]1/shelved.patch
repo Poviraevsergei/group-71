@@ -1,0 +1,21 @@
+Index: src/MyFirstJavaClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;\r\n\r\npublic class MyFirstJavaClass {\r\n    public static void main(String[] args) {\r\n        Scanner scanner = new Scanner(System.in);\r\n        int num = scanner.nextInt();\r\n\r\n        if (num == 100){\r\n            for (int i = num; i > 0; i--) {\r\n                if (num % i == 0) {\r\n                    System.out.println(i);\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/MyFirstJavaClass.java b/src/MyFirstJavaClass.java
+--- a/src/MyFirstJavaClass.java	(revision 0ad8be78dacae2c30dd933723829e7e35f092b2b)
++++ b/src/MyFirstJavaClass.java	(date 1696529101016)
+@@ -12,5 +12,10 @@
+                 }
+             }
+         }
++
++        //как переключаться
++        //ветка как переключаться
++        // merge rebase
++        //повторить
+     }
+ }
